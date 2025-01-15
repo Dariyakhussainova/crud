@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #444;
+}
+
+form,
+.blog {
+  background: #fff;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.blog h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+.blog p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.blog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.blog-actions button {
+  padding: 8px 12px;
+}
+
+.blog-actions button:first-child {
+  background-color: #dc3545;
+}
+
+.blog-actions button:first-child:hover {
+  background-color: #a71d2a;
+}
+
+.blog-actions button:last-child {
+  background-color: #28a745;
+}
+
+.blog-actions button:last-child:hover {
+  background-color: #19692c;
+}
